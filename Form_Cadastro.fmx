@@ -1,0 +1,247 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 480
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 2
+  object Rectangle1: TRectangle
+    Align = Client
+    Size.Width = 320.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    object imgICookies: TImage
+      MultiResBitmap.Height = 48
+      MultiResBitmap.Width = 48
+      MultiResBitmap = <
+        item
+          Width = 48
+          Height = 48
+          PNG = {
+            89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+            87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            01AA494441546843ED973B4EC340104063178484700744CF1DB803050DA7E0DB
+            F2A91127A0A646410A111F01162DA245A2302D3D058563DEC20C3214898D9D78
+            51E649AB5DCFAE77DF2451C66E1886611886611853C46030584D92E4384DD38E
+            844AC17E6BB44DB91C3FC81F219FD2476593407C43F67A96D0F8E1BC190EECCA
+            C1F748CCCB5421DCA72E7BBC325E92F064289B04EBB76A935738B889C059D124
+            58B75DBBBC82400B918BBC4930BFE38DBC22495C8D4A82E95DEFE415BCDAC392
+            20B6E7ADBC22495CFF4E82F1BEF7F20A9E1D445D7D70C211EDF0DFC82B88CEE1
+            7CE3C41DE3960FA5AF8C300CDFF0BE944BC76310044F32F61F3E6D2D5231AD2F
+            E32EF1A62CF11724F5F1E0856E91E62AF6A9C47A74B3B2D43F90D70AFB292F61
+            7DECD024CE59D792297F404A2BEC0F7985583689BE57498C925798FB4E02DCBF
+            5425EF13A540421F0F86CA2BACC97E13B774F525818056D85CF20A6BB349DCD1
+            4D3E090E3E108142F20AF7649388F819E67A14AF040E5B978363BA050917867D
+            B2EF133D0917E62F95B8C5E10F54DC652A6C2CB1C270FF3BF7AFB0D70997EDAF
+            A86118866118863145341A1FC7AC61B0D39499360000000049454E44AE426082}
+          FileName = 
+            'C:\Users\GGASPAR\Documents\Faculdade\Images\8155520_close_delete' +
+            '_remove_cancel_trash_icon.png'
+        end>
+      Align = Top
+      Size.Width = 320.000000000000000000
+      Size.Height = 185.000000000000000000
+      Size.PlatformDefault = False
+      WrapMode = Center
+    end
+    object lytEmail: TLayout
+      Position.X = 40.000000000000000000
+      Position.Y = 240.000000000000000000
+      Size.Width = 241.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object imgEmail: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01AA494441546843ED973B4EC340104063178484700744CF1DB803050DA7E0DB
+              F2A91127A0A646410A111F01162DA245A2302D3D058563DEC20C3214898D9D78
+              51E649AB5DCFAE77DF2451C66E1886611886611853C46030584D92E4384DD38E
+              844AC17E6BB44DB91C3FC81F219FD2476593407C43F67A96D0F8E1BC190EECCA
+              C1F748CCCB5421DCA72E7BBC325E92F064289B04EBB76A935738B889C059D124
+              58B75DBBBC82400B918BBC4930BFE38DBC22495C8D4A82E95DEFE415BCDAC392
+              20B6E7ADBC22495CFF4E82F1BEF7F20A9E1D445D7D70C211EDF0DFC82B88CEE1
+              7CE3C41DE3960FA5AF8C300CDFF0BE944BC76310044F32F61F3E6D2D5231AD2F
+              E32EF1A62CF11724F5F1E0856E91E62AF6A9C47A74B3B2D43F90D70AFB292F61
+              7DECD024CE59D792297F404A2BEC0F7985583689BE57498C925798FB4E02DCBF
+              5425EF13A540421F0F86CA2BACC97E13B774F525818056D85CF20A6BB349DCD1
+              4D3E090E3E108142F20AF7649388F819E67A14AF040E5B978363BA050917867D
+              B2EF133D0917E62F95B8C5E10F54DC652A6C2CB1C270FF3BF7AFB0D70997EDAF
+              A86118866118863145341A1FC7AC61B0D39499360000000049454E44AE426082}
+            FileName = 
+              'C:\Users\GGASPAR\Documents\Faculdade\Images\8155520_close_delete' +
+              '_remove_cancel_trash_icon.png'
+          end>
+        Align = Left
+        Size.Width = 41.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object edtEmail: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 1
+        Text = 'Digite o seu email'
+        TextSettings.FontColor = claDarkgray
+        TextSettings.HorzAlign = Center
+        Size.Width = 200.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style]
+      end
+    end
+    object lblICookies: TLabel
+      Align = Top
+      StyledSettings = [Family]
+      Margins.Top = 5.000000000000000000
+      Position.Y = 190.000000000000000000
+      Size.Width = 320.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 22.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claBlue
+      TextSettings.HorzAlign = Center
+      Text = 'ICookies'
+      TabOrder = 2
+    end
+    object lytPassword: TLayout
+      Position.X = 40.000000000000000000
+      Position.Y = 330.000000000000000000
+      Size.Width = 241.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object imgPassword: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01B5494441546843ED973B4EC34014451D472224843D207AF6C01E28685805DF
+              964F8D580135350A5288F8088868112D128569E92990129B33E8BDC85024364E
+              E2417947B2C67E33F69C6B45997160188661188661CC10711CAFF7FBFDD32449
+              9A522A04CFDBE0D896CBC983FC09F249AFD7EB160D81F8963CEB554A9387F9E6
+              08D192891F915894AE5CB8B72ECF78E77C45CAD3A16808C6EF9426AF30718D10
+              177943306EB7747905813A21AEB286A07FCF1B794542DC8C0A41F7BE77F20A5E
+              8D6121E83BF0565E9110B7BF43503BF45E5EC1B389A85B1F9C7017F9E37F23AF
+              20BA80F39D13774C5A3E94766C8461F881F7B55C06954AE599E3452EFD87B7AD
+              8B54C44FA8E3CE695BD46B32C45F90D4EDC11BCD32875BB1CF5D8DB64D332F43
+              FD03795D61BFE5A5ACDB0E0D71C9B8BA74F90352BAC2FE9057A8A54374BC0A31
+              4A5EA16F1002DCBFD458BE270A81846E0F86CA2B8C1984E09E7B9AF24220A22B
+              6C267985B1E9100F34D30F81C09108E49257B8271DA2CBCF30D3567C2C30D9A6
+              4C1CD12C4939373C67F03D41DB96726EFEB212BBEDF353B55A5D65858DA4961B
+              56EC4FEE5F23C819191A52360CC3300CC330668720F802EBD4645043B75ED000
+              00000049454E44AE426082}
+            FileName = 
+              'C:\Users\GGASPAR\Documents\Faculdade\Images\8155520_close_delete' +
+              '_remove_cancel_trash_icon.png'
+          end>
+        Align = Left
+        Size.Width = 41.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object edtPassword: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 1
+        Text = 'Digite a senha'
+        TextSettings.FontColor = claDarkgray
+        TextSettings.HorzAlign = Center
+        Size.Width = 200.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style]
+      end
+    end
+    object lytCadastro: TLayout
+      Position.X = 75.000000000000000000
+      Position.Y = 400.000000000000000000
+      Size.Width = 185.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object btnCadastrar: TButton
+        Align = Client
+        StyledSettings = [Family]
+        Size.Width = 185.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Cadastrar'
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+      end
+    end
+    object lytUser: TLayout
+      Position.X = 40.000000000000000000
+      Position.Y = 285.000000000000000000
+      Size.Width = 241.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      object imgUser: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01B9494441546843ED97BB4E0251108661434410DFC1D8FB0EBE83858D4FE1B5
+              F5521B9FC0DADA6082C44B54626B6C4D2CB0B5B7300BACDF98198216C0BA5C8E
+              61BE849CDD39873DDF4F0873C8398EE3388EE3383344A7D3596FB7DBA7499254
+              B494099EB7C16B5B6FC70FF227C827AD56AB913504E25BF2AC388E5FB5347ED8
+              6F8E1055D998108F482CEA542AE45357F977AE57B43C19B28660FDCED4E40D36
+              2E12E2226D08D6ED4E5DDE40A04488AB614330BF178CBCA1216E0685607A3F38
+              7903AF72BF10CC1D042B6F6888DBDF21A81D062F6FE059415EFA838468207FFC
+              6FE40D441770BE137161DCF2918E23238AA20FBCAFF556EE9FF3F9FC8BDE860F
+              9FB635A9265FA1BA5C3356A9177549B82069C7833786655ED2B1CFA5C6586398
+              D7A5E181BC75D86F792DDBB1C3425CB2AEA453E1809475D81FF206B5DE10F5A0
+              420C923798EB8600F9951AC9FF894C2061C783BEF2066BBA21E813F70CD30B81
+              8875D8A1E40DD6F6867860987C08048E4420ADBCC17B7A4334F81A0E75141F09
+              6CB6291B23DF6458D2726A784EF7FF04634DCBA9F94B2796E3F353A15058A5C3
+              36B5961A3AF427EF5F23C81919CA5A761CC7711CC77166875CEE0B3735641D75
+              6E97910000000049454E44AE426082}
+            FileName = 
+              'C:\Users\GGASPAR\Documents\Faculdade\Images\8155520_close_delete' +
+              '_remove_cancel_trash_icon.png'
+          end>
+        Align = Left
+        Size.Width = 41.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object edtUser: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 1
+        Text = 'Digite o nome de usuario'
+        TextSettings.FontColor = claDarkgray
+        TextSettings.HorzAlign = Center
+        Size.Width = 200.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style]
+      end
+    end
+  end
+end

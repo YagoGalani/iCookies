@@ -1,0 +1,199 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 2
+  object Rectangle1: TRectangle
+    Align = Client
+    Size.Width = 320.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    object imgICookies: TImage
+      MultiResBitmap.Height = 48
+      MultiResBitmap.Width = 48
+      MultiResBitmap = <
+        item
+          Width = 48
+          Height = 48
+          PNG = {
+            89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+            87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            01A5494441546843ED973B4EC340108663178484700744CF1DB803050DA78000
+            2D8F1A7102EAD4284821E22120A245B44814A6A5A7A0B1F9369A418622B1B11D
+            2FCA7CD268ECD9F5CEFF2752C6691886611886611873441CC79BC45992241D29
+            1582B3B688AEDC560FCD4E119F9047454D70C68E9CF52AA5EAA1DF020DFBD2F8
+            915896A55CF05C57CE7827D6A43C1B8A9A60FF6E6DE2151A37898BBC26D8B757
+            BB7805012DE22AAB09D6F7BD11AF20C499B8996682E503EFC42BE86A4F32C1FD
+            A1B7E2153171FBDB04F9C87BF10A3A3B8874F3C1091E1127FF46BC82D02534DF
+            39E18EAAC587924B230CC30F745FCBADE339088217B9F61F3E6D1D52113194EB
+            3ED1942DFE82487D3D7823AD126E629F4B6D405A94ADFE81409DB063F152D6D7
+            0E357149B464C91F10A513F68778855ADAC4D02B13D3C42BAC7D9B00F72B55CA
+            FF894220425F0F268A57D893FE26EE49F59940804ED84CE215F6A64D3C90666F
+            82C6C7222097788567D226DCC4CEF42A5E0A34DB96C6116945CAB9E1F9F4FF89
+            819473F39749DCA2E713D3759D88A4961B26F6276983B37AE4F6B86818866118
+            8661CC138DC617970962647AEDA5740000000049454E44AE426082}
+          FileName = 
+            'C:\Users\GGASPAR\Documents\Faculdade\Images\8155520_close_delete' +
+            '_remove_cancel_trash_icon.png'
+        end>
+      Align = Top
+      Size.Width = 320.000000000000000000
+      Size.Height = 185.000000000000000000
+      Size.PlatformDefault = False
+      WrapMode = Center
+    end
+    object lytEmail: TLayout
+      Position.X = 40.000000000000000000
+      Position.Y = 240.000000000000000000
+      Size.Width = 241.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object imgEmail: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01A5494441546843ED973B4EC340108663178484700744CF1DB803050DA78000
+              2D8F1A7102EAD4284821E22120A245B44814A6A5A7A0B1F9369A418622B1B11D
+              2FCA7CD268ECD9F5CEFF2752C6691886611886611873441CC79BC45992241D29
+              1582B3B688AEDC560FCD4E119F9047454D70C68E9CF52AA5EAA1DF020DFBD2F8
+              915896A55CF05C57CE7827D6A43C1B8A9A60FF6E6DE2151A37898BBC26D8B757
+              BB7805012DE22AAB09D6F7BD11AF20C499B8996682E503EFC42BE86A4F32C1FD
+              A1B7E2153171FBDB04F9C87BF10A3A3B8874F3C1091E1127FF46BC82D02534DF
+              39E18EAAC587924B230CC30F745FCBADE339088217B9F61F3E6D1D52113194EB
+              3ED1942DFE82487D3D7823AD126E629F4B6D405A94ADFE81409DB063F152D6D7
+              0E357149B464C91F10A513F68778855ADAC4D02B13D3C42BAC7D9B00F72B55CA
+              FF894220425F0F268A57D893FE26EE49F59940804ED84CE215F6A64D3C90666F
+              82C6C7222097788567D226DCC4CEF42A5E0A34DB96C6116945CAB9E1F9F4FF89
+              819473F39749DCA2E713D3759D88A4961B26F6276983B37AE4F6B86818866118
+              8661CC138DC617970962647AEDA5740000000049454E44AE426082}
+            FileName = 
+              'C:\Users\GGASPAR\Documents\Faculdade\Images\8155520_close_delete' +
+              '_remove_cancel_trash_icon.png'
+          end>
+        Align = Left
+        Size.Width = 41.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object edtEmail: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 1
+        Text = 'Entre com o seu email'
+        TextSettings.FontColor = claDarkgray
+        Size.Width = 200.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style]
+      end
+    end
+    object lblICookies: TLabel
+      Align = Top
+      StyledSettings = [Family]
+      Margins.Top = 5.000000000000000000
+      Position.Y = 190.000000000000000000
+      Size.Width = 320.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 22.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claBlue
+      TextSettings.HorzAlign = Center
+      Text = 'ICookies'
+      TabOrder = 2
+    end
+    object lytPassword: TLayout
+      Position.X = 40.000000000000000000
+      Position.Y = 290.000000000000000000
+      Size.Width = 241.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object imgPassword: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              01AA494441546843ED973B4EC340104063178484700744CF1DB803050DA7E0DB
+              F2A91127A0A646410A111F01162DA245A2302D3D058563DEC20C3214898D9D78
+              51E649AB5DCFAE77DF2451C66E1886611886611853C46030584D92E4384DD38E
+              844AC17E6BB44DB91C3FC81F219FD2476593407C43F67A96D0F8E1BC190EECCA
+              C1F748CCCB5421DCA72E7BBC325E92F064289B04EBB76A935738B889C059D124
+              58B75DBBBC82400B918BBC4930BFE38DBC22495C8D4A82E95DEFE415BCDAC392
+              20B6E7ADBC22495CFF4E82F1BEF7F20A9E1D445D7D70C211EDF0DFC82B88CEE1
+              7CE3C41DE3960FA5AF8C300CDFF0BE944BC76310044F32F61F3E6D2D5231AD2F
+              E32EF1A62CF11724F5F1E0856E91E62AF6A9C47A74B3B2D43F90D70AFB292F61
+              7DECD024CE59D792297F404A2BEC0F7985583689BE57498C925798FB4E02DCBF
+              5425EF13A540421F0F86CA2BACC97E13B774F525818056D85CF20A6BB349DCD1
+              4D3E090E3E108142F20AF7649388F819E67A14AF040E5B978363BA050917867D
+              B2EF133D0917E62F95B8C5E10F54DC652A6C2CB1C270FF3BF7AFB0D70997EDAF
+              A86118866118863145341A1FC7AC61B0D39499360000000049454E44AE426082}
+            FileName = 
+              'C:\Users\GGASPAR\Documents\Faculdade\Images\8155520_close_delete' +
+              '_remove_cancel_trash_icon.png'
+          end>
+        Align = Left
+        Size.Width = 41.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object edtPassword: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 1
+        Text = 'Entre com a sua senha'
+        TextSettings.FontColor = claDarkgray
+        Size.Width = 200.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style]
+      end
+    end
+    object lytCadastro: TLayout
+      Position.X = 32.000000000000000000
+      Position.Y = 384.000000000000000000
+      Size.Width = 257.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object lblCadastro: TLabel
+        Align = Left
+        StyledSettings = [Family, Style, FontColor]
+        Size.Width = 153.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Ainda n'#227'o possui conta?'
+        TabOrder = 0
+      end
+      object lblCadastrar: TLabel
+        Align = Left
+        StyledSettings = [Family, Size, Style]
+        Position.X = 153.000000000000000000
+        Size.Width = 104.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = claBlue
+        Text = 'Cadastre-se'
+        TabOrder = 1
+        OnClick = lblCadastrarClick
+      end
+    end
+  end
+end
